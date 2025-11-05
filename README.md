@@ -35,6 +35,14 @@ The project is designed to showcase:
 
 ---
 
+## 🌐 Live Links
+
+Frontend (Vercel): [https://info-hub-gray.vercel.app/](https://info-hub-gray.vercel.app/)  
+
+⚙️ Note: If backend API is not accessible, data will appear from mock responses.
+
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally:
