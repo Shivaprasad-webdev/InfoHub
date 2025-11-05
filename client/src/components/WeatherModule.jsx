@@ -26,7 +26,7 @@ export default function WeatherModule() {
 
   return (
     <div>
-      {/* Input + Button Row */}
+
       <div className="row" style={{ display: 'flex', gap: '10px', marginBottom: '15px',justifyContent:'center'}}>
         <div>
           <input
@@ -43,11 +43,9 @@ export default function WeatherModule() {
         </div>
       </div>
 
-      {/* States */}
       {isLoading && <div className="loading">Loading weather...</div>}
       {error && <div className="error">{error}</div>}
-
-      {/* Weather Card */}
+      
       {data && (
         <div className="card">
           <div className="result-title">{data.city}</div>

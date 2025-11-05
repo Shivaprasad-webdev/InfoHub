@@ -17,7 +17,6 @@ body {
   padding: 40px 20px;
 }
 
-/* === Container === */
 .container {
   background: #ffffff;
   max-width: 900px;
@@ -32,7 +31,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* === Header === */
+
 h1 {
   text-align: center;
   color: #007bff;
@@ -41,7 +40,6 @@ h1 {
   letter-spacing: 0.5px;
 }
 
-/* === Tabs === */
 .tabs {
   display: flex;
   justify-content: center;
@@ -72,7 +70,6 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
 
-/* === Module Section === */
 .module {
   margin-top: 10px;
   padding: 20px;
@@ -81,7 +78,7 @@ h1 {
   box-shadow: inset 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* === Buttons & Inputs (shared style for inner components) === */
+
 input[type="text"],
 input[type="number"] {
   width: 100%;
@@ -114,7 +111,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* === Cards for Weather, Currency, Quote === */
 .card {
   background: #ffffff;
   border-radius: 12px;
@@ -142,7 +138,6 @@ button:hover {
   color: #333;
 }
 
-/* === Loading & Error === */
 .loading {
   text-align: center;
   color: #666;
